@@ -2,7 +2,7 @@
 
 This project provisions a complete infrastructure on AWS using Terraform to deploy a simple Python Flask web application (`app.py`) on an EC2 instance. The infrastructure includes VPC, subnet, internet gateway, route tables, security groups, SSH key-pair setup, and a provisioned EC2 instance.
 
----
+
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ This project provisions a complete infrastructure on AWS using Terraform to depl
 🔹 Auto deployment of Python Flask app via Terraform `provisioner`  
 🔹 Key-based SSH authentication
 
----
+
 
 ## ⚙️ Resources Created
 
@@ -25,7 +25,7 @@ This project provisions a complete infrastructure on AWS using Terraform to depl
 - ✅ Key Pair (for EC2 access)  
 - ✅ EC2 instance with `app.py` deployed
 
----
+
 ## 📌 Prerequisites
 
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
@@ -34,7 +34,7 @@ This project provisions a complete infrastructure on AWS using Terraform to depl
   - `public_key` (added to `variables.tf`)
   - `private_key` (used locally for provisioning)
 
----
+
 
 ## 🛠️ How to Use
 
@@ -64,7 +64,7 @@ cd <your-project-directory>
 	``` bash
 	terraform apply
 	```
----
+
 ##  📄 License
 
 This project is open source and available under the MIT License.

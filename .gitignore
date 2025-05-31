@@ -1,5 +1,4 @@
 # terraform sensitive files
-terraform.tfvars
 *.tfvars
 *.auto.tfvars
 
