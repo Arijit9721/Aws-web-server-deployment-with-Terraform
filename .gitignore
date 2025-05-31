@@ -1,8 +1,13 @@
-# terraform sensitive files
+# Ignore sensitive variable files
 *.tfvars
 *.auto.tfvars
 
-# state files
+# Ignore Terraform state files
 *.tfstate
 *.tfstate.*
+
+# Ignore Terraform lock file
 .terraform.lock.hcl
+
+# Ignore crash logs
+crash.log

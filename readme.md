@@ -41,8 +41,7 @@ This project provisions a complete infrastructure on AWS using Terraform to depl
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-directory>
+git clone https://github.com/Arijit9721/Aws-web-server-deployment-with-Terraform.git
 ```
 2. **Set the variables in the variables. tf  and terraform.tfvars file**
  - Vpc_Cidr_block
